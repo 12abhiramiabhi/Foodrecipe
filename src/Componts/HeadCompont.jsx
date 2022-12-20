@@ -11,8 +11,12 @@ function HeadCompont() {
         Food2()
     }, [])//one time varan//
 
-    function  ClickBtn(){
+   async function  ClickBtn(){
+         let response = await axios.get("https://www.themealdb.com/api/json/v1/1/random.php")// public api poyiPOST MAN THA api url//
+        console.log(response.data.meals[0])
+        setfood(response.data.meals[0])
         alert(search + food)
+    
     }
 
     async function Food2() {
