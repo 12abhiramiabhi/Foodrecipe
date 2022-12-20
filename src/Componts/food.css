@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Unbounded:wght@200;300&display=swap');
+
+body {
+    /* background: url("https://www.24mantra.com/wp-content/uploads/2020/03/Rava-idli-recipe-For-a-nutritious-morning-meal.jpg"); */
+    background: url("https://pinchofyum.com/wp-content/uploads/2014/03/pkating-small.jpg");
+    margin: 0;
+    /* background-size: cover; */
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    height: 500px;
+    width: 690px;
+    background: linear-gradient(to bottom, #ffffff 0%, #fffeff 100%);
+    /* background: linear-gradient(to bottom, #1b111b 0%, #433039 100%); */
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,rgba(0,0,0,0.12) 0px -12px 30px, rgba(red, green, blue, alpha); */
+    padding: 40px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.input1 {
+    font-size: 20px;
+    border-radius: 3rem;
+
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 3rem;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.btn:hover {
+    transition-duration: all 0.4s;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.head {
+    font-size: 35px;
+}
