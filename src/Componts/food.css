@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-    height: 500px;
-    width: 690px;
+    min-height: auto;
+    width: 700px;
     background: linear-gradient(to bottom, #ffffff 0%, #fffeff 100%);
     /* background: linear-gradient(to bottom, #1b111b 0%, #433039 100%); */
     border-radius: 20px;
@@ -28,12 +28,27 @@ body {
     padding: 40px;
     /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: none;
+}
+
+.cate {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.cate span {
+    background-color: gray;
+    margin: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
 }
 
 .input1 {
     font-size: 20px;
     border-radius: 3rem;
-
 }
 
 .btn {
@@ -41,6 +56,7 @@ body {
     border-radius: 3rem;
     background-color: #f1f1f1;
     color: black;
+
 }
 
 .btn:hover {
@@ -49,8 +65,11 @@ body {
 
 .para {
     font-size: 20px;
+    color: black;
+    font-family: 'Inter', sans-serif;
 }
 
 .head {
-    font-size: 35px;
+    font-size: 30px;
+
 }
